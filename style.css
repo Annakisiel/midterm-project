@@ -653,6 +653,79 @@ button {
   cursor: pointer;
 }
 
+/* Footer */ 
+
+.footer {
+  padding: 40px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.address {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.footer-right {
+  flex: 2;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  flex: 1 1 33.333%;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #072ac8;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.scroll-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #072ac8;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px%;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it stays above other elements */
+  display: none; /* Hide the button initially */
+}
+
+.scroll-up:hover {
+  background-color: #0056b3; /* Slightly darker shade on hover */
+}
 /* --------------------------------------------------------------------------- */
 /* ------------------------------ MEDIA QUERIES ------------------------------ */
 /* --------------------------------------------------------------------------- */
