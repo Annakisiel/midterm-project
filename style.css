@@ -321,7 +321,7 @@ nav {
   }
   
   .btn:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #292e47;
   }
 
 /* ------------------------------ Header ------------------------------ */
@@ -442,7 +442,7 @@ img.hero-image {
 }
  ------------------------------ Recent projects ------------------------------ */
 .title {
-  margin: 100px 0 75px 0;
+margin: 30px;
 }
 
 .title h2 {
@@ -567,6 +567,9 @@ img.hero-image {
 
 /* Our Services */
 
+.title-our-services {
+  text-align: center;
+}
 .flex-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -719,14 +722,37 @@ button {
   border: none;
   border-radius: 5px%;
   cursor: pointer;
-  z-index: 1000; /* Ensure it stays above other elements */
-  display: none; /* Hide the button initially */
+  z-index: 1000; 
+  display: none; 
 }
 
 .scroll-up:hover {
-  background-color: #0056b3; /* Slightly darker shade on hover */
+  background-color: #292e47; 
 }
-/* --------------------------------------------------------------------------- */
+/* ------------------------------- CONTACT US --------------------------------- */
+
+.txt-title {
+  font-size: 50px;
+  margin: 50px;
+}
+
+.contact-us {
+margin-bottom: 50px;}
+
+.form-container {
+  font-size: 20 px;
+}
+
+#name,
+#email,
+#phone,
+#message {
+  background-color: #f4f6fc; 
+  width: 100%; 
+  padding: 10px; 
+  height: auto;
+}
+  
 /* ------------------------------ MEDIA QUERIES ------------------------------ */
 /* --------------------------------------------------------------------------- */
 

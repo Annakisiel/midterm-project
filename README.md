@@ -1,5 +1,1 @@
-my midterm project for ironhack
-
-test test test 
-
-test! 
+This is my midterm project for ironhack
