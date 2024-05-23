@@ -223,63 +223,8 @@ footer {
     transform: skewY(-90deg);
   }
 }
-/* ------------------------------ Navbar ------------------------------ */
-/*.navbar {
-  width: 80vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 75px auto;
-}
+/* Navbar */ 
 
-.nav-links a {
-  text-decoration: none;
-  color: #6c718b;
-  font-weight: 500;
-  font-size: 1.05rem;
-  margin: 0 14px 0 14px;
-}
-
-.nav-links a:hover {
-  color: #0082f3;
-  cursor: pointer;
-}
-
-.btn-blue {
-  background-color: #072ac8;
-  color: white;
-  font-weight: 500;
-  font-size: 1.05rem;
-  padding: 16px;
-  text-decoration: none;
-}
-
-.link {
-  text-decoration: none;
-  color: #6c718b;
-  font-weight: 500;
-  font-size: 1.05rem;
-  margin: 0 14px 0 14px;
-}
-
-.btn-blue:hover {
-  background-color: #292e47;
-}
-
-#navbar {
-  background-color: #072ac8;
-  color: white;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-}
-
-.logo img {
-  height: 40px; /* Adjust the height of the logo */
   #navbar {
     background-color: white;
     color: #072ac8;
@@ -324,8 +269,7 @@ nav {
     background-color: #292e47;
   }
 
-/* ------------------------------ Header ------------------------------ */
-
+/*  Header */
 
 .main {
   display: flex;
@@ -348,7 +292,7 @@ nav {
 }
 
 img.hero-image {
-  max-width: 40%; 
+  max-width: 90%; 
   float: right; 
   margin: 20px;
   margin-right: 130px;
@@ -357,7 +301,27 @@ img.hero-image {
 .cta {
   display: block; 
 }
-///
+img.credit-card {
+  max-width: 20%;
+  position: absolute;
+  top: 30%; 
+  right: 30%; 
+  width: 25%; 
+  height: auto; 
+  transform: translateY(-50%);
+  z-index: 2; 
+}
+
+img.project-success {
+  max-width: 20%;
+  position: absolute;
+  top: 80%; 
+  right: 7%; 
+  width: 25%; 
+  height: auto; 
+  transform: translateY(-50%);
+  z-index: 2; 
+}
  #main {
   width: 80vw;
   display: flex;
@@ -400,24 +364,6 @@ img.hero-image {
   width: 100%;
 }
 
-#credit-card-img {
-  position: absolute;
-  left: -19%;
-  top: 0%;
-  right: auto;
-  bottom: auto;
-  max-width: 57%;
-}
-
-#project-accepted-img {
-  position: absolute;
-  left: auto;
-  top: auto;
-  right: -25%;
-  bottom: -22%;
-  max-width: 57%;
-  z-index: 999;
-}
 
  .brands-section {
   display: flex;
@@ -440,7 +386,7 @@ img.hero-image {
   height: auto;
   filter: grayscale(100%); 
 }
- ------------------------------ Recent projects ------------------------------ */
+/* ------------------------------ Recent projects ------------------------------ */
 .title {
 margin: 30px;
 }
@@ -568,13 +514,13 @@ margin: 30px;
 /* Our Services */
 
 .title-our-services {
-  text-align: center;
+  margin-left: 200px;
 }
 .flex-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 25px; 
-  margin: 100px 0 75px 0; 
+  margin: 40px 0 75px 0; 
   margin-left: 180px;
   margin-right: 180px;
 }
@@ -729,7 +675,9 @@ button {
 .scroll-up:hover {
   background-color: #292e47; 
 }
-/* ------------------------------- CONTACT US --------------------------------- */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------ Contact Us html ------------------------------ */
+/* ------------------------------------------------------------------------ */
 
 .txt-title {
   font-size: 50px;
@@ -753,6 +701,26 @@ margin-bottom: 50px;}
   height: auto;
 }
   
+/* ------------------------------------------------------------------------ */
+/* ------------------------------ Project html ---------------------------- */
+/* ------------------------------------------------------------------------ */
+
+#main-project {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#main-project h1 {
+  font-size: 60px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+
+}
+
+#projects {
+  margin-bottom: 40px;
+}
+
 /* ------------------------------ MEDIA QUERIES ------------------------------ */
 /* --------------------------------------------------------------------------- */
 
