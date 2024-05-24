@@ -351,14 +351,10 @@ h2 {
   font-size: 2rem;
 }
 
-p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-
 .input-group {
   display: flex;
   align-items: center;
+  padding: 20px;
 }
 
 .icon {
@@ -391,7 +387,6 @@ button {
 
 .footer-container {
   max-width: 1200px;
-  margin-left: 200px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -582,8 +577,9 @@ margin-bottom: 50px;}
     display: flex;
     flex-direction: column;
   }
-}
+
 
 .footer, .container, .projects-container {
   margin: 20px;
+}
 }
