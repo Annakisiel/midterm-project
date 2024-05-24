@@ -2,10 +2,10 @@ Circle Agency Website
 
 by Anna K. 
 
-Lessons Learned
+Lessons Learned:
 
 creating a website using HTML, CSS, JavaScript
 
-Add your deployed link here...
+Deployed link:
 
 https://main--anna-project-midterm.netlify.app
