@@ -1,3 +1,11 @@
-This is my midterm project for ironhack. 
+Circle Agency Website
 
-Js functionality: fetched API from fake API website, "Go up" button on the bottom of the page
+by Anna K. 
+
+Lessons Learned
+
+creating a website using HTML, CSS, JavaScript
+
+Add your deployed link here...
+
+https://main--anna-project-midterm.netlify.app
