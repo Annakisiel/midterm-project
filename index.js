@@ -50,7 +50,7 @@ File Context:
 
 const getRecentProject = async () => {
     try {
-        let response = await fetch("https://fakestoreapi.com/products?limit=3");
+        let response = await fetch("https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects");
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -59,12 +59,14 @@ const getRecentProject = async () => {
 
         projectContainer.innerHTML = '';
 
-        for (const project of cleanResponseProjects) {
+        let limitedProjects = cleanResponseProjects.slice(1, 4);
+
+        for (const project of limitedProjects) {
             let projectInfo = `
                 <div class="project">
                     <img src="${project.image}" alt="${project.title}" />
-                    <h3>${project.title}</h3>
-                    <p>${project.category}</p>
+                    <h3>${project.name}</h3>
+                    <p>${project.description}</p>
                     <a href="#">Learn More</a>
                 </div>
             `;
